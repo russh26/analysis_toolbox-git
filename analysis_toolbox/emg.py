@@ -131,7 +131,7 @@ def emg_snr(data, fs, plot_flag):
 
 
 # testing
-filename = r"C:\SynologyDrive\SynologyDrive\projects\emg_learning\database\EMGL003\77677976_EMGL003_BL001_MVC_trial2_EMG.csv"
+
 
 data = np.genfromtxt(filename, delimiter=",")
 fs = 1000
